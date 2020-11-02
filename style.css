@@ -1,8 +1,35 @@
 
 .body {
-    background-color: chocolate;
+    background-color: #fffff;
+    margin: 20px;
+    padding: 15px;
 }
 .heading {
     color: rgb(6, 241, 17);
     background-color: rgb(240, 235, 235);
+}
+
+.article{
+    display: inline-block;
+    border: 4px grey solid;
+    margin: 10px;
+    background-color: khaki;
+}
+.article--heading{
+   
+}
+.navigation{
+    border: 4px grey solid;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+   
+
+}
+.navigation--link{
+    box-sizing: content-box;
+
+    
 }
