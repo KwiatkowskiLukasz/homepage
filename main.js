@@ -29,3 +29,11 @@ const witear = (name, age) => console.log (`Mam na imie ${name} i mam ${age} lat
 witear(name, age);
 
 witear(name, age);
+
+
+function zrobKontent(queryselectorKontent, kontent) {
+   const element = document.querySelector(queryselectorKontent);
+   element.innerHTML = kontent
+  
+}
+zrobKontent(`.article--heading--js`,`Jestem kto? `)
