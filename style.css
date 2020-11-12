@@ -57,13 +57,18 @@
    
 
 }
+
 .navigation--link{
+    display: inherit;
     box-sizing: content-box;
     justify-content: center;
     align-items: center;
     padding-left: 15px;
 
     
+}
+.hamburger{
+   display: none;
 }
 
 @media screen and (max-width: 320px) {
@@ -76,4 +81,26 @@
         grid-column-start: 1;
         grid-column-end: 0;
     }
+}
+@media screen and (max-width: 426px){
+    .navigation{
+        display: none;
+        height: 50px;
+        
+    }
+    .navigation--link{
+        display: block;
+    }
+   
+.navigation--open{
+ display: block;
+ border: 0px white solid;
+}   
+div{
+    height: 50px;
+}
+.hamburger{
+    display: block;
+    position: absolute;
+    right: 16px;
 }

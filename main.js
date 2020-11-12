@@ -5,7 +5,7 @@ console.log (`Mam na imie ${name} i mam ${age} lat`)
 
 const articleHeading = document.querySelector (`.article--heading--js`);
 
-articleHeading.innerHTML = `jestem kim?`;
+
 
 
 function calculation(myNuber) {
@@ -31,9 +31,11 @@ witear(name, age);
 witear(name, age);
 
 
-function zrobKontent(queryselectorKontent, kontent) {
-   const element = document.querySelector(queryselectorKontent);
-   element.innerHTML = kontent
-  
-}
-zrobKontent(`.article--heading--js`,`Jestem kto? `)
+
+
+const button = document.querySelector(`.hamburger--js`);
+
+button.addEventListener(`click`, () => {
+   const nav = document.querySelector(`.navigation--js`);
+   nav.classList.toggle(`navigation--open`);
+})
