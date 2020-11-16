@@ -29,6 +29,13 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
+.article--heading::before{
+    content: "";
+    display: block;
+    height: 10px;
+    background-color: red;
+    width: 15px;
+   } 
 
 .article{
     grid-area: article;
