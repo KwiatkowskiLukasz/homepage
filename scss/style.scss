@@ -1,6 +1,6 @@
 
 .body {
-    background-color: #fffff;
+    background-color: #418df1;
     max-width: 1000px;
     margin: 0 auto;
     padding: 15px;
@@ -33,9 +33,10 @@
     &--heading::before{
         content: "";
         display: block;
-        height: 10px;
+        height: 15px;
         background-color: red;
-        width: 15px;
+        border-radius: 50%;
+        width: 16px;
        } 
 }
 
@@ -62,6 +63,9 @@
         justify-content: center;
         align-items: center;
         padding-left: 15px;
+        &--link--open {
+            display: block;
+            border: 0px white solid; }
     
         
     }
@@ -100,4 +104,5 @@ div{
     display: block;
     position: absolute;
     right: 16px;
+}
 }

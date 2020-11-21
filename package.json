@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/KwiatkowskiLukasz/homepage#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "source-map": "^0.7.3"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
